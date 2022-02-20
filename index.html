@@ -1,43 +1,23 @@
-cd C:\Program Files\Microsoft Office\Office16
 
- 
+<!doctype html>
+<html lang="ko" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Office</title>
+    
+     <h4>cd C:\Program Files\Microsoft Office\Office16</h4>
+   <h4>for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"</h4>
+   <h4>cscript ospp.vbs /setprt:1688</h4>
+   <h4>cscript ospp.vbs /unpkey:6MWKP >nul</h4>
+   <h4>cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP</h4>
+   <h4>cscript ospp.vbs /sethst:kms8.msguides.com</h4>
+   <h4>cscript ospp.vbs /act</h4>
+   <hr>
+   <h4>Office 2016(32Bit) , Windows(64bBit) 일때 cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /dstatus</h4>
+   <h4>Office 2016(32Bit) , Windows(32bBit) 일때 cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus</h4>
+   <h4>Office 2016(64Bit) , Windows(64bBit) 일때 cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus</h4>
 
-for /f %x in ('dir /b ..\root\Licenses16\ProPlus2019VL*.xrm-ms') do cscript ospp.vbs /inslic:"..\root\Licenses16\%x"
-
- 
-
-cscript ospp.vbs /setprt:1688
-
- 
-
-cscript ospp.vbs /unpkey:6MWKP >nul
-
- 
-
-cscript ospp.vbs /inpkey:NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP
-
- 
-
-cscript ospp.vbs /sethst:kms8.msguides.com
-
- 
-
-cscript ospp.vbs /act
-
- 
-
-Office 2016(32Bit) , Windows(32bBit) 일때
-
-   cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus
-
- 
-
-Office 2016(32Bit) , Windows(64bBit) 일때
-
-   cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /dstatus
-
- 
-
-Office 2016(64Bit) , Windows(64bBit) 일때
-
-   cscript "C:\Program Files\Microsoft Office\Office16\OSPP.VBS" /dstatus
+    
+  </body>
+</html>
